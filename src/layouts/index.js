@@ -37,19 +37,26 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="BasicGenius => Custom Web Application Development & Consulting"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Simple, elegant, performance oriented web application development, design and consulting.' },
       ]}
     />
-    <Header />
+
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
+        margin: 'auto',
+        maxWidth: 500,
+        width: '100%',
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
+        display: 'table',
+        position: 'absolute',
+        top: 0,
+        bottom: 0,
+        left: 0,
+        right: 0,
+        textAlign: 'center'
       }}
     >
       {children()}
