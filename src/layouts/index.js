@@ -37,7 +37,7 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="BasicGenius => Custom Web Application Development & Consulting"
+      title="Custom Web Application Development & Technical Consulting // BasicGenius"
       meta={[
         { name: 'description', content: 'Simple, elegant, performance oriented web application development, design and consulting.' },
       ]}
